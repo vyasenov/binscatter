@@ -16,6 +16,8 @@ data(iris)
 ################### BINSCATTER USING BINSREG PACKAGE
 ###################
 
+# this would give the optimal number of bins
+
 binsreg(data=iris, 
       y=Petal.Length, 
       x=Sepal.Length)
@@ -23,6 +25,8 @@ binsreg(data=iris,
 ###################
 ################### BINSCATTER FROM SCRATCH
 ###################
+
+# this would have a fixed number of 10 bins
 
 bins <- 10
 
